@@ -1,0 +1,17 @@
+package gpu_swt;
+
+public class InterfaceGpu {
+	public static void main(String[] args) {
+		
+		Display = new Display();
+		Shell shell = new Shell(display);
+		shell.setText("Alo mundo");
+		shell.open();
+		while(!shell.isDisposed())
+			if(!display.readAndDispatch())
+			display.sleep();
+		display.dispose();
+		}
+	}
+
+}

@@ -1,0 +1,21 @@
+package interfaceSWT;
+
+import org.eclipse.swt.widgets.Display;
+import org.eclipse.swt.widgets.Shell;
+
+public class InterfaceSWT {
+
+	
+	
+	public static void main(String[] args) {
+	Display display = new Display();
+	Shell shell = new Shell(display);
+	shell.setText("Alo mundo");
+	shell.open();
+	while(!shell.isDisposed())
+		if(!display.readAndDispatch())
+		display.sleep();
+	display.dispose();
+	}
+	
+}

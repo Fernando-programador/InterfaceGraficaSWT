@@ -1,0 +1,12 @@
+INDEX VERSION 1.131+\\server\PROJETOS_PROGRAMAÇÂO\ECLIPSE\Interface_Grafica_SWT\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+10706947.index
+2073713298.index
+3688727105.index
+3920697625.index
+2876362596.index
+3471067308.index
+190457474.index
+2723425775.index
+3501714628.index
+580662608.index

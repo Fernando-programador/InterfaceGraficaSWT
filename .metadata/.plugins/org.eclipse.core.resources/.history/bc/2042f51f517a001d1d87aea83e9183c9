@@ -1,0 +1,12 @@
+package interfaceSWT;
+
+public class Principal {
+
+	
+		
+	while (!shell.isDisposed()) {
+		if (!display.readAndDispatch())
+			display.sleep();
+	}
+	}
+

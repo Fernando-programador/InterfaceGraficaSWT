@@ -1,0 +1,38 @@
+package interfaceSWT;
+
+import javafx.application.Application;
+import javafx.geometry.Pos;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+public class PrimaryFx extends Application{
+	
+	@Override
+	public void start(Stage primaryStage) throws Exception {
+		Button btnA =  new Button();
+		Button btnB =  new Button();
+		Button btnC =  new Button();
+		
+		
+		HBox box = new HBox();
+		box.setAlignment(Pos.CENTER);
+		box.setSpacing(10);
+		box.getChildren().add(btnA);
+		box.getChildren().add(btnB);
+		box.getChildren().add(btnC);
+		
+		Scene MinhaScena = new Scene(box, 100, 150);
+		
+		primaryStage.setScene(MinhaScena);
+		primaryStage.show();
+	}
+
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+	
+}
